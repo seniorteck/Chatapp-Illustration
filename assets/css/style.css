@@ -11,19 +11,32 @@
 /* end of google font link  */
 
 body{
-    background: linear-gradient( 244deg, hsl(293, 100%, 63%), hsl(264, 100%, 61%)), hsl(270, 20%, 96%) ;
-    background-repeat: no-repeat;
-    background-size: 50% 600px, auto;
-    background-position: top left, 0 ;
+    background: hsl(270, 20%, 96%);
     font-family: 'Rubik', sans-serif;
 }
 
 .bg-upper{
-
+    background: linear-gradient( 219deg, hsl(293, 100%, 63%) -30%, hsl(264, 100%, 61%));
+    position: absolute;
+    top: 0;
+    left: -40px;
+    width: 60%;
+    height: 667px;
+    z-index: -1;
+    border-bottom-right-radius: 100%;
 }
 
 .bg-bottom{
-    
+    background: linear-gradient( 219deg, hsl(293, 100%, 63%) -30%, hsl(264, 100%, 61%));
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 60%;
+    height: 500px;
+    z-index: -1;
+    border-top-left-radius: 100%;
+    opacity: 0.04;
+
 }
 
 /* this wraps the whole content on the page */
